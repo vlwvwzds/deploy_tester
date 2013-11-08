@@ -7,7 +7,7 @@ LOCAL_BIN_DIR="/usr/local/bin/"
 ###########################################################################
 # START COMMON
 #Copy /usr/share/install to final destination
-if [ ! -e ${DOCROOT}]; then
+if [ ! -e ${DOCROOT} ]; then
 cd -p ${DOCROOT}/..
 rm -rf deploy_tester
 fi
